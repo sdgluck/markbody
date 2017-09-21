@@ -23,7 +23,7 @@ Parse the body of a webpage as markdown and replace it with the result...
 <html>
 <head>
     <title>markbody</title>
-    <script src="markbody.js"></script>
+    <script src="https://unpkg.com/markbody@1.0.0/dist/markbody.js"></script>
 </head>
 <body>
     # header1
