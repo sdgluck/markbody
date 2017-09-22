@@ -34,12 +34,14 @@ Parse the body of a webpage as markdown and replace it with the result...
     <script src="https://unpkg.com/markbody@1.0.2/dist/markbody.min.js"></script>
 </head>
 <body>
-    # header1
-    ## header2
-    ```js
-    var spongebob = 'squarepants'
-    // comment
-    ```
+    <div id="root">
+        # header1
+        ## header2
+        ```js
+        var spongebob = 'squarepants'
+        // comment
+        ```
+    </div>
 </body>
 </html>
 ```
