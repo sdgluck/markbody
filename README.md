@@ -46,6 +46,10 @@ Parse the body of a webpage as markdown and replace it with the result...
 </html>
 ```
 
+#### Output
+
+<img src="https://github.com/sdgluck/markbody/blob/master/image.png" />
+
 ## Contributing
 
 All pull requests and issues welcome!
