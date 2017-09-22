@@ -28,7 +28,7 @@ Parse the body of a webpage as markdown and replace it with the result...
           //query selector or element, defaults to document.body
           root: '#root',
           //your own options for `marked` here (override, not merged)
-          marked: {}
+          //marked: {}
         }
     </script>
     <script src="https://unpkg.com/markbody@1.0.2/dist/markbody.min.js"></script>
