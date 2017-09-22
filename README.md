@@ -16,13 +16,18 @@ Parse the body of a webpage as markdown and replace it with the result...
 - uses default settings of [`marked`](https://github.com/chjj/marked)
 - highlights code blocks with [`highlight.js`](https://highlightjs.org)
 
-## Example
+## Usage
 
 ```html
 <!doctype html>
 <html>
 <head>
     <title>markbody</title>
+    <script>
+        window.markedOptions = {
+          //...your own `marked` options here
+        }
+    </script>
     <script src="https://unpkg.com/markbody@1.0.0/dist/markbody.js"></script>
 </head>
 <body>
