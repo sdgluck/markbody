@@ -26,7 +26,7 @@ Parse the body of a webpage as markdown and replace it with the result...
     <script>
         window.markbody = {
           //query selector or element, defaults to document.body
-          root: '#root',
+          //root: '#root',
           //your own options for `marked` here (override, not merged)
           //marked: {}
         }
@@ -34,14 +34,12 @@ Parse the body of a webpage as markdown and replace it with the result...
     <script src="https://unpkg.com/markbody@1.0.2/dist/markbody.min.js"></script>
 </head>
 <body>
-    <div id="root">
-        # header1
-        ## header2
-        ```js
-        var spongebob = 'squarepants'
-        // comment
-        ```
-    </div>
+    # header1
+    ## header2
+    ```js
+    var spongebob = 'squarepants'
+    // comment
+    ```
 </body>
 </html>
 ```
